@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kinuchala_icon"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deserts_text_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="96dp"
+        android:layout_marginTop="24dp"
+        android:textSize="48sp"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Deserts"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bakes_text_view"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="24dp"
+        android:textSize="48sp"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Bakes"/>
+
+</RelativeLayout>
